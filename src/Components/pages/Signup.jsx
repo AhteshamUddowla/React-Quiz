@@ -32,7 +32,9 @@ function Signup() {
 
           <CheckBox text="I agree to the Terms & Conditions" />
 
-          <Button>Submit Now</Button>
+          <Button>
+            <span>Submit Now</span>
+          </Button>
 
           <Info />
         </Form>
