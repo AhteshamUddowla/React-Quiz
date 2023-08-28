@@ -1,0 +1,12 @@
+import classes from "../Styles/Form.module.css";
+
+// eslint-disable-next-line react/prop-types
+function Form({ children, className, ...rest }) {
+  return (
+    <form className={`${className} ${classes.form}`} action="#" {...rest}>
+      {children}
+    </form>
+  );
+}
+
+export default Form;
