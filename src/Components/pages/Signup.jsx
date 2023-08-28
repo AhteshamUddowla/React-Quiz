@@ -1,4 +1,5 @@
 import classes from "../../Styles/Signup.module.css";
+import signupImage from "../../assets/images/signup.svg";
 import Button from "../Button";
 import CheckBox from "../CheckBox";
 import Form from "../Form";
@@ -11,7 +12,7 @@ function Signup() {
     <>
       <h1>Create an account</h1>
       <div className="column">
-        <Illustration />
+        <Illustration image={signupImage} />
         <Form className={`${classes.signup} form`}>
           <TextInput type="text" placeholder="Enter Name" icon="person" />
 
